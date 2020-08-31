@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* easy attributes */
+
+.dflex {
+  display: flex;
+}
+
+.z-index-top {
+  z-index: 2;
+}
+
+.z-index-bot {
+  z-index: 0;
+}
+
+.flex-ietm-1-8 {
+  flex: 1;
+}
+
+.flex-item-9 {
+  flex: 3;
+}
+/* navbar */
+
+.navbar-container {
+  width: 100%;
+  height: 8em;
+  justify-self: center;
+  align-items: flex-end;
+  justify-content: center;
+  align-content: center;
+}
+
+nav {
+  width: 80%;
+  border: 1px solid gray;
+}
+
+.nav-btn {
+  width: 100px ;
+  min-width: 100px;
+  height: 2.7em;
+  border-radius: none;
+}
+
+
+.fab {
+  font-size: 20px;
+}
+
+.searchbar-container {
+  height: 2.2em;
+  align-items: center;
+  justify-items: center;
+}
+
+.search-query{
+  background: url(/pictures/75-750705_fa-fa-search-icon-hd-png-download.png) no-repeat left ;
+  background-size: 20px;
+  justify-self: center;
+  width: 80%;
+  height: 70%;
+  border-radius: 50px;
+  margin: auto 10% auto 10%;
+
+}
+
+
+/* main section */
+
+.background-1 {
+  height: 100vh;
+  background : url(/pictures/bg-img.jpg) no-repeat bottom;
+}

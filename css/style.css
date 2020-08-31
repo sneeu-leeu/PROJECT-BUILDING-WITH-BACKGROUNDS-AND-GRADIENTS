@@ -4,10 +4,19 @@
   margin: 0;
 }
 
+main {
+  font-family: Lato, sans-serif;
+  font-size: 22px;
+  
+}
 /* easy attributes */
 
 .dflex {
   display: flex;
+}
+
+.background-gradient {
+  background-image: linear-gradient(rgb(90, 89, 89), rgb(131, 128, 128));
 }
 
 .z-index-top {
@@ -25,11 +34,34 @@
 .flex-item-9 {
   flex: 3;
 }
+
+.centered {
+  margin: 60px auto auto auto;
+  text-align: center;
+  width: 700px;
+  color: white;
+  
+}
+
+.centered h2 {
+  margin-bottom: 40px;
+}
+
+.white {
+  color: white;
+  text-decoration: none;
+}
+
+.link {
+  font-size: 20px;
+}
+
+
 /* navbar */
 
 .navbar-container {
   width: 100%;
-  height: 8em;
+  height: 6em;
   justify-self: center;
   align-items: flex-end;
   justify-content: center;
@@ -37,7 +69,8 @@
 }
 
 nav {
-  width: 80%;
+  height: 1.5em;
+  width: 73%;
   border: 1px solid gray;
 }
 
@@ -46,6 +79,11 @@ nav {
   min-width: 100px;
   height: 2.7em;
   border-radius: none;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border: 1px solid grey;
+  color: white;
 }
 
 
@@ -54,26 +92,33 @@ nav {
 }
 
 .searchbar-container {
-  height: 2.2em;
+  height: 1.65em;
   align-items: center;
   justify-items: center;
 }
 
 .search-query{
-  background: url(/pictures/75-750705_fa-fa-search-icon-hd-png-download.png) no-repeat left ;
-  background-size: 20px;
+  background-size: 16px;
   justify-self: center;
   width: 80%;
   height: 70%;
   border-radius: 50px;
   margin: auto 10% auto 10%;
-
+  
 }
 
 
 /* main section */
 
 .background-1 {
-  height: 100vh;
+  height: 90vh;
   background : url(/pictures/bg-img.jpg) no-repeat bottom;
 }
+
+.search-icon {
+  position: absolute;
+  font-size: 15px;
+  padding-left: 30px;
+  color: white;
+}
+

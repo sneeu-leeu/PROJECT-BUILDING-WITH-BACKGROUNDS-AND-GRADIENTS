@@ -19,6 +19,7 @@ main {
   background-image: linear-gradient(rgb(114, 111, 111) 50%,rgb(97, 95, 95) 40%,rgb(97, 95, 95));
 }
 
+
 .z-index-top {
   z-index: 2;
 }
@@ -29,10 +30,19 @@ main {
 
 .flex-ietm-1-8 {
   flex: 1;
+  min-width: 50px;
 }
 
 .flex-item-9 {
-  flex: 3;
+  flex: 1;
+}
+
+.float-l {
+  float: left;
+}
+
+.float-r {
+  float: right;
 }
 
 .centered {
@@ -56,6 +66,40 @@ main {
   font-size: 20px;
 }
 
+.nostyle {
+  text-decoration: none;
+}
+
+.border-right {
+  border-right: .5px solid grey;
+  padding: 0 7px 0 7px;
+}
+
+.grey-text {
+ color: GREY;
+}
+
+
+.footerpadding {
+  margin: 10px;
+  font-size: 13px;
+}
+
+.footerpadding-btm {
+  margin-bottom: 30px;
+}
+
+.margin-left {
+  margin-left: 100px;
+}
+
+.margin-rgt {
+  margin-right: 80px;
+}
+
+.link-clr {
+  color: rgb(0, 143, 209);
+}
 
 /* navbar */
 
@@ -70,29 +114,36 @@ main {
 
 nav {
   height: 1.5em;
-  width: 73%;
+  width: 79%;
   border: 1px solid gray;
+  border-radius: 3px;
 }
 
 .nav-btn {
   width: 100px ;
-  min-width: 100px;
-  height: 2.7em;
+  height: 2.5em;
   border-radius: none;
   border-top: none;
   border-bottom: none;
   border-left: none;
-  border: 1px solid grey;
+  border-right: .5px solid rgb(59, 58, 58);
   color: white;
 }
 
+.search-icon {
+  position: absolute;
+  font-size: 15px;
+  padding-left: 2%;
+  color: white;
+}
 
 .fab {
   font-size: 20px;
 }
 
 .searchbar-container {
-  height: 1.65em;
+  width: 140px;
+  height: 1.48em;
   align-items: center;
   justify-items: center;
 }
@@ -108,17 +159,31 @@ nav {
 }
 
 
-/* main section */
+/* top background section */
 
 .background-1 {
   height: 90vh;
+  max-width: 100%;
   background : url(/pictures/bg-img.jpg) no-repeat bottom;
 }
 
-.search-icon {
-  position: absolute;
-  font-size: 15px;
-  padding-left: 30px;
-  color: white;
+/* bottom background section */
+.background2 img{
+  width: 100%;
+  padding-top: 2px;
 }
 
+/*footer*/
+
+footer .foot1 {
+  display: inline-block;
+}
+
+div .foot1 {
+  margin-left: 60px;
+}
+
+.ftr-img {
+  max-width :2px;
+  padding-left : 8px;
+}

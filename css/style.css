@@ -16,7 +16,7 @@ main {
 }
 
 .background-gradient {
-  background-image: linear-gradient(rgb(90, 89, 89), rgb(131, 128, 128));
+  background-image: linear-gradient(rgb(114, 111, 111) 50%,rgb(97, 95, 95) 40%,rgb(97, 95, 95));
 }
 
 .z-index-top {
@@ -113,19 +113,24 @@ main {
 
 nav {
   height: 1.5em;
-  width: 75%;
+  width: 79%;
   border: 1px solid gray;
+  border-radius: 3px;
 }
 
 .nav-btn {
-  width: 95px ;
-  height: 2.7em;
+  width: 100px ;
+  height: 2.5em;
   border-radius: none;
   border-top: none;
   border-bottom: none;
   border-left: none;
-  border: 1px solid grey;
+  border-right: .5px solid rgb(59, 58, 58);
   color: white;
+}
+
+.nav-btn:hover {
+
 }
 
 .search-icon {
@@ -140,8 +145,8 @@ nav {
 }
 
 .searchbar-container {
-  widt<small></small>h: 140px;
-  height: 1.65em;
+  width: 140px;
+  height: 1.48em;
   align-items: center;
   justify-items: center;
 }
@@ -182,6 +187,6 @@ div .foot1 {
 }
 
 .ftr-img {
-  max-width :23px;
+  max-width :2px;
   padding-left : 8px;
 }

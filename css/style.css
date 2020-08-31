@@ -130,6 +130,11 @@ nav {
   color: white;
 }
 
+.nav-btn:hover {
+  background: #474747;
+  cursor: pointer;
+}
+
 .search-icon {
   position: absolute;
   font-size: 15px;

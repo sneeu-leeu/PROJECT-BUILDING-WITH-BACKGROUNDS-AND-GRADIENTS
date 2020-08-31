@@ -181,3 +181,7 @@ div .foot1 {
   margin-left: 60px;
 }
 
+.ftr-img {
+  max-width :23px;
+  padding-left : 8px;
+}

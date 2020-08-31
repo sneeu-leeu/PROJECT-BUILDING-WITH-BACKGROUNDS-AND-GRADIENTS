@@ -35,7 +35,14 @@ main {
 .flex-item-9 {
   flex: 1;
 }
-  
+
+.float-l {
+  float: left;
+}
+
+.float-r {
+  float: right;
+}
 
 .centered {
   margin: 60px auto auto auto;
@@ -60,6 +67,37 @@ main {
 
 .nostyle {
   text-decoration: none;
+}
+
+.border-right {
+  border-right: .5px solid grey;
+  padding: 0 7px 0 7px;
+}
+
+.grey-text {
+ color: GREY;
+}
+
+
+.footerpadding {
+  margin: 10px;
+  font-size: 13px;
+}
+
+.footerpadding-btm {
+  margin-bottom: 30px;
+}
+
+.margin-left {
+  margin-left: 100px;
+}
+
+.margin-rgt {
+  margin-right: 80px;
+}
+
+.link-clr {
+  color: rgb(0, 143, 209);
 }
 
 /* navbar */
@@ -137,5 +175,9 @@ nav {
 
 footer .foot1 {
   display: inline-block;
+}
+
+div .foot1 {
+  margin-left: 60px;
 }
 

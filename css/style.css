@@ -20,6 +20,7 @@ main {
 }
 
 
+
 .z-index-top {
   z-index: 2;
 }
@@ -128,6 +129,10 @@ nav {
   border-left: none;
   border-right: .5px solid rgb(59, 58, 58);
   color: white;
+}
+
+.nav-btn:hover {
+  background: radial-gradient(circle, rgba(88,88,88,0.9995185574229691) 82%, rgba(106,106,106,1) 100%);
 }
 
 .search-icon {

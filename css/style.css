@@ -29,11 +29,13 @@ main {
 
 .flex-ietm-1-8 {
   flex: 1;
+  min-width: 50px;
 }
 
 .flex-item-9 {
-  flex: 3;
+  flex: 1;
 }
+  
 
 .centered {
   margin: 60px auto auto auto;
@@ -56,6 +58,9 @@ main {
   font-size: 20px;
 }
 
+.nostyle {
+  text-decoration: none;
+}
 
 /* navbar */
 
@@ -70,13 +75,12 @@ main {
 
 nav {
   height: 1.5em;
-  width: 73%;
+  width: 75%;
   border: 1px solid gray;
 }
 
 .nav-btn {
-  width: 100px ;
-  min-width: 100px;
+  width: 95px ;
   height: 2.7em;
   border-radius: none;
   border-top: none;
@@ -86,12 +90,19 @@ nav {
   color: white;
 }
 
+.search-icon {
+  position: absolute;
+  font-size: 15px;
+  padding-left: 2%;
+  color: white;
+}
 
 .fab {
   font-size: 20px;
 }
 
 .searchbar-container {
+  widt<small></small>h: 140px;
   height: 1.65em;
   align-items: center;
   justify-items: center;
@@ -108,17 +119,23 @@ nav {
 }
 
 
-/* main section */
+/* top background section */
 
 .background-1 {
   height: 90vh;
+  max-width: 100%;
   background : url(/pictures/bg-img.jpg) no-repeat bottom;
 }
 
-.search-icon {
-  position: absolute;
-  font-size: 15px;
-  padding-left: 30px;
-  color: white;
+/* bottom background section */
+.background2 img{
+  width: 100%;
+  padding-top: 2px;
+}
+
+/*footer*/
+
+footer .foot1 {
+  display: inline-block;
 }
 

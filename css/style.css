@@ -133,6 +133,7 @@ nav {
 
 .nav-btn:hover {
   background: radial-gradient(circle, rgba(88,88,88,0.9995185574229691) 82%, rgba(106,106,106,1) 100%);
+  cursor: pointer;
 }
 
 .search-icon {

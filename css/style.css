@@ -14,6 +14,10 @@ main {
   display: flex;
 }
 
+.flex1 {
+  flex: 1 1 1;
+}
+
 .background-gradient {
   background-image: linear-gradient(rgb(114, 111, 111) 50%, rgb(97, 95, 95) 40%, rgb(97, 95, 95));
 }
@@ -158,9 +162,8 @@ nav {
 
 /* top background section */
 .background-1 {
-  height: 90vh;
-  max-width: 100%;
   background: url(/pictures/bg-img.jpg) no-repeat bottom;
+  background: cover;
 }
 
 /* bottom background section */

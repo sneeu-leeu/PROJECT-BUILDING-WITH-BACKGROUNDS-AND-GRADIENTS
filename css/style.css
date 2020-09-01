@@ -69,8 +69,7 @@ main {
 
 .border-right {
   border-right: 0.5px solid grey;
-  padding-left: 7px; 
-  padding-right: 7px;
+  padding: none 7px none 7px;
 }
 
 .grey-text {
@@ -109,7 +108,7 @@ main {
 }
 
 nav {
-  height: 1.5em;
+  height: 1.5em;  border-radius: 0px;
   width: 79%;
   border: 1px solid gray;
   border-radius: 3px;
@@ -121,14 +120,14 @@ nav {
   border-top: none;
   border-bottom: none;
   border-left: none;
-  border-right:0.5px solid rgb(59, 58, 58);
+  border-right: 0.5px solid rgb(59, 58, 58);
   color: white;
 }
 
 .nav-btn:hover {
   background: radial-gradient(circle, rgba(88, 88, 88, 0.9995185574229691) 82%, rgba(106, 106, 106, 1) 100%);
   cursor: pointer;
-}
+}  border-radius: 0px;
 
 .search-icon {
   position: absolute;
@@ -171,7 +170,7 @@ nav {
   padding-top: 2px;
 }
 
-/* footer */ 
+/* footer */
 footer .foot1 {
   display: inline-block;
 }

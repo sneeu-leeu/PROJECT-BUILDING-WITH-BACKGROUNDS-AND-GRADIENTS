@@ -15,7 +15,7 @@ main {
 }
 
 .background-gradient {
-  background-image: linear-gradient(rgb(114, 111, 111) 50%,rgb(97, 95, 95) 40%,rgb(97, 95, 95));
+  background-image: linear-gradient(rgb(114, 111, 111) 50%, rgb(97, 95, 95) 40%,rgb(97, 95, 95));
 }
 
 .z-index-top {
@@ -48,7 +48,6 @@ main {
   text-align: center;
   width: 700px;
   color: white;
-  
 }
 
 .centered h2 {
@@ -70,11 +69,12 @@ main {
 
 .border-right {
   border-right: .5px solid grey;
-  padding: 0 7px 0 7px;
+  padding-left: 7px; 
+  padding-right: 7px;
 }
 
 .grey-text {
- color: grey;
+  color: grey;
 }
 
 .footerpadding {
@@ -116,18 +116,17 @@ nav {
 }
 
 .nav-btn {
-  width: 100px ;
+  width: 100px;
   height: 2.5em;
-  border-radius: 0px;
   border-top: none;
   border-bottom: none;
   border-left: none;
-  border-right: .5px solid rgb(59, 58, 58);
+  border-right:0.5px solid rgb(59, 58, 58);
   color: white;
 }
 
 .nav-btn:hover {
-  background: radial-gradient(circle, rgba(88,88,88,0.9995185574229691) 82%, rgba(106,106,106,1) 100%);
+  background: radial-gradient(circle, rgba(88, 88, 88, 0.9995185574229691) 82%, rgba(106, 106, 106, 1) 100%);
   cursor: pointer;
 }
 
@@ -149,7 +148,7 @@ nav {
   justify-items: center;
 }
 
-.search-query{
+.search-query {
   background-size: 16px;
   justify-self: center;
   width: 80%;
@@ -162,17 +161,17 @@ nav {
 .background-1 {
   height: 90vh;
   max-width: 100%;
-  background : url(/pictures/bg-img.jpg) no-repeat bottom;
+  background: url(/pictures/bg-img.jpg) no-repeat bottom;
 }
 
 /* bottom background section */
-.background2 img{
+.background2 img {
   width: 100%;
   max-width: 100vh;
   padding-top: 2px;
 }
 
-/*footer*/
+/* footer */ 
 footer .foot1 {
   display: inline-block;
 }
@@ -182,6 +181,6 @@ div .foot1 {
 }
 
 .ftr-img {
-  max-width :2px;
-  padding-left : 8px;
+  max-width: 2px;
+  padding-left: 8px;
 }

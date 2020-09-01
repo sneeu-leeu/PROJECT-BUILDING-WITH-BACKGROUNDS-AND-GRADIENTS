@@ -35,10 +35,6 @@ main {
   min-width: 50px;
 }
 
-.flex-item-9 {
-  flex: 1;
-}
-
 .float-l {
   float: left;
 }
@@ -56,6 +52,10 @@ main {
 
 .centered h2 {
   margin-bottom: 40px;
+}
+
+.top-btm-split {
+  padding-bottom: 80px;
 }
 
 .white {
@@ -162,6 +162,8 @@ nav {
 
 /* top background section */
 .background-1 {
+  height: 100vh;
+  max-width: 100%;
   background: url(/pictures/bg-img.jpg) no-repeat bottom;
   background-size: cover;
 }

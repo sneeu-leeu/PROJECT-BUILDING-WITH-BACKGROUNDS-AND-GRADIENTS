@@ -15,7 +15,7 @@ main {
 }
 
 .flex1 {
-  flex: 1 1 1;
+  flex: 1;
 }
 
 .background-gradient {
@@ -163,7 +163,7 @@ nav {
 /* top background section */
 .background-1 {
   background: url(/pictures/bg-img.jpg) no-repeat bottom;
-  background: cover;
+  background-size: cover;
 }
 
 /* bottom background section */

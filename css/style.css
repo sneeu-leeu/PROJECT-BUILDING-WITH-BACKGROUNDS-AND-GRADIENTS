@@ -69,7 +69,7 @@ main {
 
 .border-right {
   border-right: 0.5px solid grey;
-  padding: 0px 7px 0px 7px;
+  padding: 0 7px 0 7px;
 }
 
 .grey-text {
@@ -127,8 +127,7 @@ nav {
 .nav-btn:hover {
   background: radial-gradient(circle, rgba(88, 88, 88, 0.9995185574229691) 82%, rgba(106, 106, 106, 1) 100%);
   cursor: pointer;
-  border-radius: 0px;
-} 
+}
 
 .search-icon {
   position: absolute;

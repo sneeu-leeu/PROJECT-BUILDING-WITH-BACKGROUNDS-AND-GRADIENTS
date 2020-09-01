@@ -176,6 +176,7 @@ nav {
 /* bottom background section */
 .background2 img{
   width: 100%;
+  max-width: 100vh;
   padding-top: 2px;
 }
 

@@ -7,7 +7,7 @@ This collaborative project displays our knowledge of HTML and CSS. In this proje
 
 ## Live Demo
 ---
-[Old Apple](https://sharp-nightingale-c08fb9.netlify.app/ project-4)
+[Old Apple](https://sharp-nightingale-c08fb9.netlify.app/ "project-4")
 
 
 ## Built With

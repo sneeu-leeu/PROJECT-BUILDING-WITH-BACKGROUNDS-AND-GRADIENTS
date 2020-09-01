@@ -15,7 +15,7 @@ main {
 }
 
 .background-gradient {
-  background-image: linear-gradient(rgb(114, 111, 111) 50%, rgb(97, 95, 95) 40%,rgb(97, 95, 95));
+  background-image: linear-gradient(rgb(114, 111, 111) 50%, rgb(97, 95, 95) 40%, rgb(97, 95, 95));
 }
 
 .z-index-top {
@@ -68,7 +68,7 @@ main {
 }
 
 .border-right {
-  border-right: .5px solid grey;
+  border-right: 0.5px solid grey;
   padding-left: 7px; 
   padding-right: 7px;
 }
